@@ -1,15 +1,16 @@
 Pod::Spec.new do |s|
 
-s.name = "TalkfunWhiteboard"
-s.version = "1.0.1"
-s.license = "MIT"
-s.summary = "A ChannelListView with CollectionView by swift, it is like NetEaseNews Channel style."
-s.homepage = "https://github.com/20427740/TalkfunWhiteboard"
-s.author = { "hongqingWang" => "578781605@qq.com" }
-s.source = { :git => "https://github.com/20427740/TalkfunWhiteboard.git", :tag => s.version }
-
-s.ios.deployment_target = "8.0"
-
-s.source_files = "TalkfunWhiteboard/TalkfunWhiteboard/TalkfunWhiteboard.h"
+  s.name     = 'TalkfunWhiteboard'
+  s.version  = '1.0.5'
+  s.license  = 'MIT'
+  s.summary  = 'A delightful iOS and OS X networking framework.'
+  s.homepage = 'https://github.com/20427740/TalkfunWhiteboard'
+  s.social_media_url = 'https://twitter.com/AFNetworking'
+  s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
+  s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version, :submodules => true }
+  s.requires_arc = true
+  
+  s.public_header_files = 'TalkfunWhiteboard/TalkfunWhiteboard.h'
+  s.source_files = 'TalkfunWhiteboard/TalkfunWhiteboard.h'
 end
 
