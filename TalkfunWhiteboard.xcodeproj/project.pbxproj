@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B212FBC218803F7000942AD /* TalkfunWhiteboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B212FBB218803F7000942AD /* TalkfunWhiteboard.m */; };
 		2B212FBD218803F7000942AD /* TalkfunWhiteboard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B212FBA218803F7000942AD /* TalkfunWhiteboard.h */; };
+		2B212FC421885424000942AD /* libTalkfunWhiteboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B212FC321885424000942AD /* libTalkfunWhiteboard.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		2B212FB7218803F7000942AD /* libTalkfunWhiteboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTalkfunWhiteboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B212FBA218803F7000942AD /* TalkfunWhiteboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkfunWhiteboard.h; sourceTree = "<group>"; };
-		2B212FBB218803F7000942AD /* TalkfunWhiteboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkfunWhiteboard.m; sourceTree = "<group>"; };
+		2B212FC321885424000942AD /* libTalkfunWhiteboard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTalkfunWhiteboard.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B212FC421885424000942AD /* libTalkfunWhiteboard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +61,8 @@
 		2B212FB9218803F7000942AD /* TalkfunWhiteboard */ = {
 			isa = PBXGroup;
 			children = (
+				2B212FC321885424000942AD /* libTalkfunWhiteboard.a */,
 				2B212FBA218803F7000942AD /* TalkfunWhiteboard.h */,
-				2B212FBB218803F7000942AD /* TalkfunWhiteboard.m */,
 			);
 			path = TalkfunWhiteboard;
 			sourceTree = "<group>";
@@ -122,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B212FBC218803F7000942AD /* TalkfunWhiteboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +246,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6U495P36C;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TalkfunWhiteboard",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -258,6 +262,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V6U495P36C;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TalkfunWhiteboard",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
