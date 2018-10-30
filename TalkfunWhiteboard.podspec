@@ -8,7 +8,9 @@ Pod::Spec.new do |s|
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/20427740/TalkfunWhiteboard.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
-  s.source_files  ='TalkfunWhiteboard/*.*'
+  s.source_files  =        'TalkfunWhiteboard/*.h'
+  s.vendored_libraries = 'TalkfunWhiteboard/libTalkfunWhiteboard.a'
+
   s.ios.deployment_target = "8.0"
 end
 
