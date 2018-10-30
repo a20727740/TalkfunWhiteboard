@@ -10,6 +10,6 @@ s.source = { :git => "https://github.com/20427740/TalkfunWhiteboard.git", :tag =
 
 s.ios.deployment_target = "8.0"
 
-s.source_files = "TalkfunWhiteboard/TalkfunWhiteboard.podspec"
+s.source_files = "TalkfunWhiteboard/TalkfunWhiteboard/TalkfunWhiteboard.h"
 end
 
