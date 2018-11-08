@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name     = "TalkfunWhiteboard"
   s.dependency 'AFNetworking', '~>3.1.0'
-  s.version  = "1.1.0"
+  s.version  = "1.1.1"
   s.license  = "MIT"
   s.summary  = "A ChannelListView with CollectionView by swift, it is like NetEaseNews Channel style.dddd"
   s.homepage = "https://github.com/20427740/TalkfunWhiteboard"
