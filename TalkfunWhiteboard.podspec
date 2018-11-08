@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
  
   s.version  = "1.1.5"
   s.license  = "MIT"
-  s.summary  = "A ChannelListView with ColleconView by swift, it is like NetEaseNews Channel style.dddd"
+  s.summary  = "A Chaby swift, it is like NetEaseNews Channel style.dddd"
   s.homepage = "https://github.com/20427740/TalkfunWhiteboard"
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/20427740/TalkfunWhiteboard.git', :tag => s.version, :submodules => true }
