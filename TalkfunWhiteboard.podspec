@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 
   s.name     = "TalkfunWhiteboard"
-  s.dependency 'AFNetworking', '~>3.1.0'
-  s.version  = "1.1.1"
+ 
+  s.version  = "1.1.5"
   s.license  = "MIT"
-  s.summary  = "A ChannelListView with CollectionView by swift, it is like NetEaseNews Channel style.dddd"
+  s.summary  = "A ChannelListView with ColleconView by swift, it is like NetEaseNews Channel style.dddd"
   s.homepage = "https://github.com/20427740/TalkfunWhiteboard"
   s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
   s.source   = { :git => 'https://github.com/20427740/TalkfunWhiteboard.git', :tag => s.version, :submodules => true }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   
    
-
+  s.dependency 'MJExtension', '~> 3.0.13'   
   
   
   
