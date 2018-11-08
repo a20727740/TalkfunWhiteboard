@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name     = "TalkfunWhiteboard"
   s.dependency 'MJExtension', '~> 3.0.13'   
-  s.version  = "1.1.5"
+  s.version  = "1.3.0"
   s.license  = "MIT"
   s.summary  = "A Chaby swift, it is like NetEaseNews Channel style.dddd"
   s.homepage = "https://github.com/20427740/TalkfunWhiteboard"
