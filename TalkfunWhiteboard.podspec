@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name     = "TalkfunWhiteboard"
- 
+  s.dependency 'MJExtension', '~> 3.0.13'   
   s.version  = "1.1.5"
   s.license  = "MIT"
   s.summary  = "A Chaby swift, it is like NetEaseNews Channel style.dddd"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   
    
-  s.dependency 'MJExtension', '~> 3.0.13'   
+ 
   
   
   
